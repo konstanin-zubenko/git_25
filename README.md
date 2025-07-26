@@ -13,7 +13,6 @@
 
 Скриншот настроек ранера ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/43.png)
 
-
 Задание 2
 
 Что нужно сделать:  
@@ -44,8 +43,7 @@ build:
   script:
    - docker build .
 
-Успешно отработаннные сборки:
- ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/49.png)
+Успешно отработаннные сборки ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/49.png)
 
 
 
