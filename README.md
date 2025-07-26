@@ -11,7 +11,7 @@
 Ответ:
 
 Скриншот настроек ранера ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/43.png)
-Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/46.png)
+
 
 Задание 2
 Что нужно сделать:  
@@ -22,7 +22,7 @@
 скриншоты с успешно собранными сборками.
 
 Ответ:
-Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/48.png)
+Запушил ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/48.png)
 
 Содержимое файла .gitlab-ci.yml:
 
@@ -42,7 +42,7 @@ build:
   script:
    - docker build .
 
-Сборки:
+Успешно отработаннные сборки:
 
 Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/49.png)
 
