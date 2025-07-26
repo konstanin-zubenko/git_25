@@ -10,8 +10,8 @@
 
 Ответ:
 
-Скриншот настроек ранера ![alt text](https://github.com/konstanin-zubenko/git_25/blob/main/img/45.png)
-Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/main/img/46.png)
+Скриншот настроек ранера ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/45.png)
+Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/46.png)
 
 Задание 2
 Что нужно сделать:
