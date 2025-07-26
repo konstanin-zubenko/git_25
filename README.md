@@ -10,11 +10,11 @@
 
 Ответ:
 
-Скриншот настроек ранера ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/44.png)
+Скриншот настроек ранера ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/43.png)
 Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/46.png)
 
 Задание 2
-Что нужно сделать:
+Что нужно сделать:  
 Запушьте репозиторий на GitLab, изменив origin. Это изучалось на занятии по Git.
 Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
 В качестве ответа в шаблон с решением добавьте:
@@ -22,10 +22,29 @@
 скриншоты с успешно собранными сборками.
 
 Ответ:
+Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/48.png)
+
+Содержимое файла .gitlab-ci.yml:
+
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  image: golang:1.17
+  script: 
+   - go test .
+
+build:
+  stage: build
+  image: docker:latest
+  script:
+   - docker build .
+
+Сборки:
+
+Скриншот команд из терминала ![alt text](https://github.com/konstanin-zubenko/git_25/blob/dev/img/49.png)
 
 
 
-
-
-
-Тестовый редми файл. после публикации на https://github.com/  и клонировании его к себе на машину
